@@ -47,7 +47,7 @@
   </dependencies>
   <build>
     <plugins>
-      <plugin>
+      <<plugin>
         <groupId>io.quarkus</groupId>
         <artifactId>quarkus-maven-plugin</artifactId>
         <version>${quarkus-plugin.version}</version>
@@ -60,7 +60,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${compiler-plugin.version}</version>
